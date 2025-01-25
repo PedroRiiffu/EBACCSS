@@ -1,0 +1,42 @@
+style.css
+
+img{
+    width: 70%;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1366px;
+    margin: 0 auto;
+    background-color: rgb(255, 239, 245);
+    border-radius: 30px;
+    padding: 30px;
+    columns: 70% auto ;
+}
+.elemento{
+    width: 30%;
+    height: 30%;
+}
+.MY{
+    background-color: rgb(250, 93, 93);
+    border-radius: 0px;
+    padding: 30px;
+    columns: 70% auto ;
+    
+}
+.article{
+    display: flex;
+}
+article article img{
+    height: 180px;
+}
+
+.article article{
+    width: 30%;
+}
+
+.body{
+    margin: 0;
+    background-color: rgb(212, 195, 195);
+}
